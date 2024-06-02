@@ -3,6 +3,7 @@ ARDUINO CODE FOR SERVO
 
 
 void setup() {
+
 Serial.begin(115200);
 }
 
