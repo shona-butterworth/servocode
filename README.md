@@ -9,8 +9,11 @@ Serial.begin(115200);
 void loop() {
 
 if (Serial.available() > 0) { 
+
 int val = Serial.parseInt();
+
 analogWrite(11, val);
+
 delay(15);
 
 }
